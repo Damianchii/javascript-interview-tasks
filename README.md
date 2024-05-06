@@ -4,8 +4,8 @@
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=js" />
   </a>
-</p>jansh
-yooo
+</p>
+
 ## ➡️ What will be returned by each of these?
 
 ```bash
@@ -31,4 +31,19 @@ sum(1,2)
 ### Returned
 ```bash
 3
+```
+
+## ➡️ Write a JavaScript program to find the maximum number in an array.
+
+```bash
+const arr = [1,2,3,4,5,6,7,10]
+
+const maxNumber =  function(arr){
+  let result = Math.max(...arr)
+  return result
+}
+```
+### Returned
+```bash
+10
 ```
