@@ -14,7 +14,7 @@ console.log("foo" && "bar")
 ```
 ### Returned
 
-```bash
+```bashsdf
 Hello
 bar
 ```
