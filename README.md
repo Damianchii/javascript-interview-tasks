@@ -3,8 +3,8 @@
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=js" />
-  </a>hhh
-</p>mmm
+  </a>
+</p>
 
 ## ➡️ What will be returned by each of these?
 
@@ -14,7 +14,7 @@ console.log("foo" && "bar")
 ```
 ### Returned
 
-```bashsdf
+```bash
 Hello
 bar
 ```
@@ -47,3 +47,9 @@ const maxNumber =  function(arr){
 ```bash
 10
 ```
+
+## ➡️ Write a JavaScript function to check if a given string is a palindrome (reads the same forwards and backwards). 
+
+
+
+### Napisz funkcję JavaScript sprawdzającą, czy dany ciąg znaków jest palindromem (czyta to samo do przodu i do tyłu).
