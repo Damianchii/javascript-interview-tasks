@@ -50,6 +50,17 @@ const maxNumber =  function(arr){
 
 ## ➡️ Write a JavaScript function to check if a given string is a palindrome (reads the same forwards and backwards). 
 
+> A palindrome means that a word means the same thing in reverse
 
+```bash
+const isPalindrome = (str)=>{
+  return str === str.split("").reverse().join("")
+}
 
-### Napisz funkcję JavaScript sprawdzającą, czy dany ciąg znaków jest palindromem (czyta to samo do przodu i do tyłu).
+console.log(isPalindrome("kajak"))
+```
+### Returned
+
+```bash
+true
+```
