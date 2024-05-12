@@ -96,3 +96,23 @@ console.log(evenArr(arr))
 ```bash
 2,4,6,8,10
 ```
+
+## ➡️ Write a JavaScript program to calculate the factorial of a given number. 
+
+> Thats how factorial looks like
+> 5! = 5 * 4 * 3 * 2 * 1
+
+```bash
+function calculateFactorial(number) {
+  if (number === 0 || number === 1) {
+    return 1;
+  } else {
+    return number * calculateFactorial(number - 1);
+  }
+}
+
+console.log(calculateFactorial(5))
+```
+```bash
+120
+```
