@@ -64,3 +64,18 @@ console.log(isPalindrome("kajak"))
 ```bash
 true
 ```
+
+## ➡️ Write a JavaScript program to reverse a given string. 
+
+```bash
+const reverseString = (str) => {
+  return str.split("").reverse().join("")
+}
+
+console.log(reverseString("hello"))
+```
+
+### Returned
+```bash
+olleh
+```
