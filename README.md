@@ -53,7 +53,7 @@ const maxNumber =  function(arr){
 > A palindrome means that a word means the same thing in reverse
 
 ```bash
-const isPalindrome = (str)=>{
+const isPalindrome = (str) => {
   return str === str.split("").reverse().join("")
 }
 
@@ -78,4 +78,21 @@ console.log(reverseString("hello"))
 ### Returned
 ```bash
 olleh
+```
+
+## ➡️ Write a JavaScript function that takes an array of numbers and returns a new array with only the even numbers. 
+
+```bash
+const arr = [1,2,3,4,5,6,7,8,9,10]
+
+const evenArr = arr => {
+  return arr.filter((number) => number % 2 === 0)
+}
+
+console.log(evenArr(arr))
+```
+
+### Returned
+```bash
+2,4,6,8,10
 ```
