@@ -113,6 +113,31 @@ function calculateFactorial(number) {
 
 console.log(calculateFactorial(5))
 ```
+### Returned
+
 ```bash
 120
+```
+
+## ➡️ Write a JavaScript function to check if a given number is prime. 
+
+```bash
+const isPrime = function(num){
+  if( num < 1) return false
+  
+  for(let i = 2; i <= Math.sqrt(num); i++){
+    console.log("hello")
+    
+    if(num % 2 === 0) return false
+  }
+  return true
+}
+
+isPrime(5)
+
+```
+### Returned
+
+```bash
+false
 ```
