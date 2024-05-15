@@ -122,23 +122,41 @@ console.log(calculateFactorial(5))
 ## ➡️ Write a JavaScript function to check if a given number is prime. 
 
 ```bash
-const isPrime = function(num){
-  if( num < 1) return false
-  
-  for(let i = 2; i <= Math.sqrt(num); i++){
-    console.log("hello")
-    
-    if(num % 2 === 0) return false
+function isPrime(number) {
+  if (number <= 1) {
+    return false;
   }
-  return true
+  if (number <= 3) {
+    return true;
+  }
+  if (number % 2 === 0 || number % 3 === 0) {
+    return false;
+  }
+  for (let i = 2; i <= Math.sqrt(number); i++) { 
+
+    if (number % i === 0) return false; 
+
+  } 
+  return true;
 }
 
-isPrime(5)
+console.log(isPrime(5))
 
 ```
 ### Returned
 
 ```bash
-false
+true
 ```
-fsdsfs
+
+## ➡️ Write a JavaScript program to find the largest element in a nested array. 
+
+```bash
+
+```
+
+### Returned
+
+```bash
+true
+```
