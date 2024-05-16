@@ -184,3 +184,20 @@ console.log(fibonacciSequence(10))
 0,1,1,2,3,5,8,13,21,34,55
 ```
 
+## ➡️ Write a JavaScript program to convert a string to title case (capitalize the first letter of each word). 
+
+```bash
+function toTitleCase(str) { 
+
+  return str.replace(/\b\w/g, l => l.toUpperCase()); 
+
+} 
+
+console.log("da asdasd")
+```
+
+### Returned
+
+```bash
+Da Asdasd
+```
