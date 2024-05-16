@@ -152,11 +152,35 @@ true
 ## ➡️ Write a JavaScript program to find the largest element in a nested array. 
 
 ```bash
+const fibonacciSequence = function(num){
+  const fibonacci = [0,1]
+  
+  if(num <= 0){
+    return []
+  }
+  
+  if(num === 1){
+    return [0]
+  }
+  
+    if(num === 2){
+    return fibonacci
+  }
+  
+  for(let i = 3; i <= num; i++){
+    fibonacci.push(fibonacci[fibonacci.length-1] + fibonacci[fibonacci.length-2])
+  }
+  
+  return fibonacci
+}
 
+
+console.log(fibonacciSequence(10))
 ```
 
 ### Returned
 
 ```bash
-true
+0,1,1,2,3,5,8,13,21,34,55
 ```
+
