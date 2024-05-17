@@ -193,11 +193,11 @@ function toTitleCase(str) {
 
 } 
 
-console.log("da asdasd")
+console.log("hello world")
 ```
 
 ### Returned
 
 ```bash
-Da Asdasd
+Hello World
 ```
