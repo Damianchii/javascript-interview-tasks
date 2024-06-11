@@ -117,6 +117,7 @@ function calculateFactorial(number) {
 }
 
 console.log(calculateFactorial(5))
+
 ```
 ### Returned
 
