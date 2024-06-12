@@ -95,6 +95,7 @@ const evenArr = arr => {
 }
 
 console.log(evenArr(arr))
+
 ```
 
 ### Returned
