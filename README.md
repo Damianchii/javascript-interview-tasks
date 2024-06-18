@@ -186,6 +186,8 @@ const fibonacciSequence = function(num){
 
 
 console.log(fibonacciSequence(10))
+
+
 ```
 
 ### Returned
