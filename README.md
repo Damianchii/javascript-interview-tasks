@@ -152,6 +152,8 @@ function isPrime(number) {
 
 console.log(isPrime(5))
 
+
+
 ```
 ### Returned
 
