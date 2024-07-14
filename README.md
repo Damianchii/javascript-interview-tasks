@@ -17,8 +17,6 @@ console.log("foo" && "bar")
 ```bash
 Hello
 bar
-
-
 ```
 
 ## ➡️ Write a JavaScript function to calculate the sum of two numbers. 
