@@ -41,7 +41,6 @@ const arr = [1,2,3,4,5,6,7,10]
 const maxNumber =  function(arr){
   let result = Math.max(...arr)
   return result
-
 }
 ```
 ### Returned
